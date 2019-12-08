@@ -1,0 +1,105 @@
+/*body{
+	background-image: url(/oiseau.jpg);
+}*/
+.image{
+	width: 15%;
+	float: right;
+	height: 200px;
+}
+.modification{
+	margin-left: 20%;
+	font-family:'Times new Roman' Tahoma,sans-serif;
+	font-size: 18px;
+	color: white;
+}
+#couleur{ 
+	color:#ff1a1a;
+}/* carrousel image en css
+#slider { width: 80%; max-width: 1000px; }
+#slider figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+}
+#slider figure img { width: 20%; height: auto; float: left; }
+#slider { width: 80%; max-width: 1000px; overflow: hidden }
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 10s slidy infinite;
+}*/
+table{
+	border-collapse: collapse;
+	width: 75%;
+	margin-left: 10%;
+	/*background-color: #ff1a1a;*/
+}
+
+.bordure{
+	text-align: center;
+	border: 3px solid black;
+	height: 60px;
+}
+.container{
+	animation: animate 16s ease-in-out infinite;
+	width: 100%;
+	position: absolute;
+	height: 100vh;
+	background-size: cover;
+	top: 0%;
+	left: 0%;
+}
+.outer{
+	width: 100%;
+	position: absolute;
+	height: 100vh;
+	background-size: cover;
+	top: 0%;
+	left:0%;
+	background: rgba(0,0,0,0.5);
+}
+.details{
+	width: 100%;
+	position: absolute;
+	height: 100vh;
+	background-size: cover;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+@keyframes animate{
+	0%,100%{
+		background-image: url(images/eglise.jpg);
+		height: 200%;
+		opacity: 1.5;
+	}
+	50%{
+		background-image: url(images/maison1.jpg);
+		height: 200%;
+		opacity: 1.5
+	}
+	75%{
+		background-image: url(images/destino.jpg);
+		height: 200%;
+		opacity: 1.4
+	}
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>groupe_8</display-name>
+  <servlet>
+       <servlet-name>LoginServlet</servlet-name>
+       <servlet-class>Controlleur.LoginServlet</servlet-class>
+   </servlet>
+
+   <servlet-mapping>
+       <servlet-name>LoginServlet</servlet-name>
+       <url-pattern>/login</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet>
+       <servlet-name>UserServlet</servlet-name>
+       <servlet-class>Controlleur.UserServlet</servlet-class>
+   </servlet>
+
+   <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/insertUser</url-pattern>
+   </servlet-mapping>
+   
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/changepwd</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/activer</url-pattern>
+   </servlet-mapping>
+   
+     <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/desactiver</url-pattern>
+    </servlet-mapping>
+   
+   
+     <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/insertTache</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/updateTache</url-pattern>
+    </servlet-mapping>
+   
+   <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/annulerTache</url-pattern>
+    </servlet-mapping>
+   
+    <servlet-mapping>
+      
+    <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/terminerProjet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+      
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/terminerTache</url-pattern>
+    </servlet-mapping>
+   
+    
+    
+     <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/annulerProjet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/suspendreTache</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/suspendreProjet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/demarerTache</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/affecterTache</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/affecterProjet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/retirerTache</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/retirerProjet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/cvYvan</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/cvKOUEMOU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/cvMOUTEKE</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/insertProjet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/updateProjet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+       <servlet-name>UserServlet</servlet-name>
+       <url-pattern>/demarerProjet</url-pattern>
+    </servlet-mapping>
+    
+    
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

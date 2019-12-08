@@ -1,0 +1,17 @@
+body
+{
+	
+	background-size: 100% ;
+	background-color: #c2e71c;
+	color: black;
+}
+
+tbody
+{
+	font-style: italic;
+}
+tfoot
+{
+	font-weight: bold;
+	
+}
